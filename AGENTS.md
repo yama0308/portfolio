@@ -6,13 +6,20 @@
 
 # ディレクトリ構成
 
-- src: ソースコード本体のディレクトリ
-- docs: このプロジェクトの設計書がまとめられたディレクトリ
+- `*.html`: 各ページのHTMLファイルです。
+- `common/`: サイト全体で共通して使用するCSSやJavaScriptのファイルを格納します。
+- `docs/`: このプロジェクトの設計書がまとめられたディレクトリです。
 
 ```
 .
-├── docs
-└── src
+├── about.html
+├── index.html
+├── skills.html
+├── works.html
+├── common
+│   ├── main.js
+│   └── style.css
+└── docs
 ```
 
 # 開発における諸注意
