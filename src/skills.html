@@ -7,23 +7,68 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="works.html">Works</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>My Skills</h1>
-        <section id="skill-list">
-            <h2>スキルカテゴリ (Skill Categories)</h2>
-            <p>ここにスキルカテゴリのリストが入ります。</p>
-        </section>
-    </main>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="works.html">Works</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>My Skills</h1>
+            <section id="skill-list">
+                <h2>スキル一覧 (Skill List)</h2>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Go</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks / Libraries</h3>
+                    <ul>
+                        <li>FastAPI</li>
+                        <li>Django</li>
+                        <li>Pandas</li>
+                        <li>PyTorch</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>Redis</li>
+                        <li>BigQuery</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud / DevOps</h3>
+                    <ul>
+                        <li>AWS</li>
+                        <li>GCP</li>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>Terraform</li>
+                        <li>CI/CD</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Others</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Linux</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
