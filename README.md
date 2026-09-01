@@ -1,3 +1,7 @@
+# ※2026年9月1日 こちらのリポジトリは保守を終了しました※
+
+今後は[こちらのリポジトリ](https://github.com/kouki-y-dev/about-me)で運用しますのでご覧ください。
+
 # My Portfolio
 
 ## Overview
